@@ -1,0 +1,35 @@
+body{
+	background: url('../img/bg.jpg');
+	background-repeat: no-repeat;
+	height:100vh;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.card{
+	width: 50%;
+	border-radius: 10px !important;
+	margin-top:110px;
+	margin-right: auto;
+	margin-left: auto;
+	background: rgb(0,0,0,0.5) !important;
+	box-shadow:3px 1px 10px 1px rgb(225,225,225,0.2);
+}
+
+.card-body{
+	padding-left: 30px !important;
+	padding-right: 30px !important;
+}
+.card-sub-footer{
+
+}
+.form-select:focus,.form-control:focus{
+	box-shadow:none !important;
+	border:2px solid green !important;
+}
+.form-select:disabled{
+	background-color: red !important;
+}
+option:hover{
+	background-color: red !important;
+}
